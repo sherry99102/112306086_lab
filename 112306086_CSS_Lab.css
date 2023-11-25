@@ -1,0 +1,54 @@
+body {
+    color: black;
+    background-color: #192a56; 
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2em;
+    left: 2em;
+    width: 10em;
+}
+
+.navbar li {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li:hover {
+    background-color: #555;
+}
+
+select {
+    margin-top: 1em;
+    padding: 8px;
+    font-size: 16px;
+}
+
+@media all {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12px;
+    }
+}
